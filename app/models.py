@@ -11,3 +11,13 @@ class Article:
         self.article_img = article_img
         self.published_at = published_at
         self.content = content
+
+class Source:
+    '''
+    Source class to define Source Objects
+    '''
+
+    def __init__(self,id,name,description):
+        self.id =id
+        self.name = name
+        self.description = description
