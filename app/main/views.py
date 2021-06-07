@@ -1,6 +1,6 @@
 from flask import render_template,request,redirect,url_for
 from . import main
-from ..requests import get_sources,get_top_headlines,get_source_news,get_category_news,search_news
+from ..request import get_sources,get_top_headlines,get_source_news,get_category_news,search_news
 
 # Views
 @main.route('/')
