@@ -1,9 +1,13 @@
+*{
+  background-color: #0a7887;
+}
 .body {
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: normal;
     min-height: 100vh;
     text-align: center;
     box-sizing: border-box;
+    margin-right: 30%;
   }
   
   .header {
